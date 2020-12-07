@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/cnl_img"
+        android:padding="2dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/pincc"
+        android:background="@drawable/brand_border"/>
+    <TextView
+        android:id="@+id/cnl_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#3D3C3C"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"/>
+
+</LinearLayout>
